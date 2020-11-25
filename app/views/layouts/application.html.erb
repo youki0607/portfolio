@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Portfolio</title>
+    <%# <link rel="stylesheet" href="style.css"> %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,11 +11,17 @@
   </head>
 
   <body>
-  <div class="top">
-    <div class="topleft">
+  <div class='top'>
+    <div class="top-left">
+      <img src="app/assets/images/ha.png" alt="サンプル画像です" class="image">
     </div>
-    <div class="topright">
+    <div class="top-right">
+      <div class="tadaima">ただいま転職活動中</div>
     </div>
+  </div>
+  <div class="space"></div>
+  <div class="about">
+    about me
   </div>
   <h1>ポートフォリオ</h1>
   <footer>
@@ -22,3 +29,4 @@
   </footer>
   </body>
 </html>
+ 

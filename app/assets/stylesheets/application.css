@@ -17,18 +17,49 @@
 
 body{
   background-color: rgb(238, 235, 235);
-  display: inline;
+  display: block;
 }
 
-topleft{
-  background-color: gray;
-  width: 100px;
-  height: 100px;
+.top{
+  display: flex;
 }
 
+.top-left{
+  /* background-color: gray; */
+  width: 50%;
+  height: 400px;
+}
 
+.image{
+  width: 50vw;
+  height: 400px;
+}
 
+.top-right{
+  background-color: cornsilk;
+  width: 50%;
+  height: 400px;
+}
 
 footer{
   font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.tadaima{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.space{
+  width: 100vw;
+  height: 40px;
+}
+
+.about{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
 }
